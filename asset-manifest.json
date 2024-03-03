@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ac7046a2.css",
+    "main.js": "./static/js/main.855ba211.js",
+    "static/js/453.f3b57337.chunk.js": "./static/js/453.f3b57337.chunk.js",
+    "static/media/outside.jpg": "./static/media/outside.e4e52b19e0e6fec50e68.jpg",
+    "static/media/home.jpg": "./static/media/home.6d14ad88e7c0d48d2f81.jpg",
+    "static/media/food.jpg": "./static/media/food.95fb28b79b8d99b4b232.jpg",
+    "static/media/grandma.jpg": "./static/media/grandma.29a8b6901ddb090a8730.jpg",
+    "static/media/sad.jpg": "./static/media/sad.aaab6625f514a96a58d3.jpg",
+    "static/media/hurt.jpg": "./static/media/hurt.4e8bbd015c39b5bc01d3.jpg",
+    "static/media/scared.jpg": "./static/media/scared.a2ef5e297aa4f243e75a.jpg",
+    "static/media/drink.jpg": "./static/media/drink.f18fc8af4dde0811a53a.jpg",
+    "static/media/tired.jpg": "./static/media/tired.12b7ee590ddc9e2e9bd4.jpg",
+    "static/media/angry.jpg": "./static/media/angry.faf9f0bffe701470d1bc.jpg",
+    "static/media/happy.jpg": "./static/media/happy.6791e3c69e188d43d7e5.jpg",
+    "static/media/school.jpg": "./static/media/school.7d63ff6ffb7505bf3f85.jpg",
+    "index.html": "./index.html",
+    "main.ac7046a2.css.map": "./static/css/main.ac7046a2.css.map",
+    "main.855ba211.js.map": "./static/js/main.855ba211.js.map",
+    "453.f3b57337.chunk.js.map": "./static/js/453.f3b57337.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac7046a2.css",
+    "static/js/main.855ba211.js"
+  ]
+}
