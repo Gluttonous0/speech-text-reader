@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    position: relative;
+    background-color: #ffefea;
+}
+
+.header {
+    text-align: center;
+    margin: 20px;
+}
+
+.header_box {
+    display: flex;
+}
+
+.header_btn {
+    width: 130px;
+    height: 35px;
+    margin: 5px auto;
+    border: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 7px;
+    background-color: #e9967a;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* 允许换行 */
+}
+
+.container li {
+    flex-shrink: 0;
+    flex-basis: calc(25% - 10px);
+    /* 每个元素占据父容器宽度的25%，减去间隔的10px */
+    margin: 5px;
+    /* 在元素之间添加间隔 */
+
+}
+
+.container_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    width: 100%;
+    height: 242px;
+    border: 0;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 7px;
+    transition: box-shadow 0.2s ease;
+    /* 添加过渡效果，让变化更平滑 */
+}
+
+.container_box:active {
+    box-shadow: 0 0 13px rgba(237, 167, 144, 0.7);
+}
+
+.img_box {
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+
+}
+
+.container li img {
+    flex-shrink: 0;
+    /* 禁止图片缩小以适应空间 */
+    width: 100%;
+    /* 图片宽度填满容器（假设你想保持宽高比且高度自适应） */
+    height: auto;
+}
+
+.text_box {
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #e9967a;
+}
+
+/* 移动窗口 */
+.move_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1330px;
+    height: 350px;
+    background-color: #333333;
+    z-index: 999;
+    transition: all .5s;
+}
+
+.move_box span {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 10px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.move_box_change {
+    transform: translate(-50%, -250%);
+    transition: all .5s;
+}
+
+.move_box_contect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 20px;
+}
+
+.move_box h2 {
+    width: 100%;
+    text-align: left;
+    color: #fff;
+}
+
+.move_box_select {
+    flex: 1;
+    padding: 5px 0;
+    font-size: 13px;
+    width: 100%;
+    background-color: #e9967a;
+    color: #fff;
+}
+
+.move_box_input {
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    font-size: 16px;
+    padding: 8px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.move_box_readbtn {
+    padding: 8px 0;
+    font-size: 16px;
+    width: 100%;
+    background-color: #e9967a;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.move_box_readbtn:active {
+    width: 98%;
+    padding: 7.5px 0;
+    transition: all .3s;
+}
